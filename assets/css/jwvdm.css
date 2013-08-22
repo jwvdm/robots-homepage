@@ -195,56 +195,56 @@ ol.bibliography > li {
 
 @font-face {
     font-family: 'PT Sans'; 
-    src: url('../assets/fonts/PTS55F.ttf'); 
+    src: url('/assets/fonts/PTS55F.ttf'); 
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'PT Sans'; 
-    src: url('../assets/fonts/PTS56F.ttf'); 
+    src: url('/assets/fonts/PTS56F.ttf'); 
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'PT Sans'; 
-    src: url('../assets/fonts/PTS75F.ttf'); 
+    src: url('/assets/fonts/PTS75F.ttf'); 
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'PT Sans'; 
-    src: url('../assets/fonts/PTS76F.ttf'); 
+    src: url('/assets/fonts/PTS76F.ttf'); 
     font-weight: bold;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'PT Sans Caption'; 
-    src: url('../assets/fonts/PTC55F.ttf'); 
+    src: url('/assets/fonts/PTC55F.ttf'); 
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'PT Sans Caption'; 
-    src: url('../assets/fonts/PTC56F.ttf'); 
+    src: url('/assets/fonts/PTC56F.ttf'); 
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'PT Sans Narrow'; 
-    src: url('../assets/fonts/PTN55F.ttf'); 
+    src: url('/assets/fonts/PTN55F.ttf'); 
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'PT Sans Narrow'; 
-    src: url('../assets/fonts/PTN77F.ttf'); 
+    src: url('/assets/fonts/PTN77F.ttf'); 
     font-weight: bold;
     font-style: normal;
 }
@@ -252,70 +252,70 @@ ol.bibliography > li {
 
 @font-face {
     font-family: 'Open Sans'; 
-    src: url('../assets/fonts/OpenSans-Regular.ttf'); 
+    src: url('/assets/fonts/OpenSans-Regular.ttf'); 
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Open Sans'; 
-    src: url('../assets/fonts/OpenSans-Italic.ttf'); 
+    src: url('/assets/fonts/OpenSans-Italic.ttf'); 
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Open Sans'; 
-    src: url('../assets/fonts/OpenSans-Bold.ttf'); 
+    src: url('/assets/fonts/OpenSans-Bold.ttf'); 
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Open Sans'; 
-    src: url('../assets/fonts/OpenSans-BoldItalic.ttf'); 
+    src: url('/assets/fonts/OpenSans-BoldItalic.ttf'); 
     font-weight: bold;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Open Sans'; 
-    src: url('../assets/fonts/OpenSans-Light.ttf'); 
+    src: url('/assets/fonts/OpenSans-Light.ttf'); 
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Open Sans'; 
-    src: url('../assets/fonts/OpenSans-LightItalic.ttf'); 
+    src: url('/assets/fonts/OpenSans-LightItalic.ttf'); 
     font-weight: 300;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Open Sans'; 
-    src: url('../assets/fonts/OpenSans-SemiBold.ttf'); 
+    src: url('/assets/fonts/OpenSans-SemiBold.ttf'); 
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Open Sans'; 
-    src: url('../assets/fonts/OpenSans-SemiBoldItalic.ttf'); 
+    src: url('/assets/fonts/OpenSans-SemiBoldItalic.ttf'); 
     font-weight: 600;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Open Sans'; 
-    src: url('../assets/fonts/OpenSans-ExtraBold.ttf'); 
+    src: url('/assets/fonts/OpenSans-ExtraBold.ttf'); 
     font-weight: 800;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Open Sans'; 
-    src: url('../assets/fonts/OpenSans-ExtraBoldItalic.ttf'); 
+    src: url('/assets/fonts/OpenSans-ExtraBoldItalic.ttf'); 
     font-weight: 800;
     font-style: italic;
 }
