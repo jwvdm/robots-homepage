@@ -1,0 +1,26 @@
+<div class="row">
+  
+  <a href="http://www.ox.ac.uk"> 
+    <img class="logo" src="../../assets/images/oxford_logo_tight.png" height="75px" align="bottom"> 
+  </a>
+  <!-- <span class="subtitle">Post-doc in Machine Learning</span> -->
+</div>
+<div class="row">
+    <div class="title pull-left">
+      Jan-Willem van de Meent
+    </div>
+    <ul class="nav nav-pills pull-right">
+      {% for link in site.navigation %}
+      <li {% if page.url == link.url %}class="active"{% endif %}>
+        <a href="{{link.url}}" title="{{link.title}}">{{link.text}}</a>
+      </li>
+      <!-- class="active"><a href="/">About</a></li> -->
+      <!-- <li><a href="/projects">Projects</a></li> -->
+      <!-- <li><a href="/publications">Publications</a></li> -->
+      {% endfor %}
+    </ul>
+</div>
+
+<script>
+  $()
+</script>

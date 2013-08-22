@@ -1,2 +1,18 @@
+name: "Jan-Willem van de Meent @ robots.ox.ac.uk"
+url: http://robots.ox.ac.uk/~jwvdm
 permalink: /:year/:month/:day/:title
 timezone: Europe/London
+
+navigation:
+- text: About
+  url: /index.html
+- text: Projects
+  url: /projects/index.html
+- text: Publications
+  url: /publications/index.html
+
+
+scholar:
+  # sort_by: year
+  # order: descending
+  # style: http://www.zotero.org/styles/nature
