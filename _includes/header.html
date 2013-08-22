@@ -1,7 +1,7 @@
 <div class="row">
   
   <a href="http://www.ox.ac.uk"> 
-    <img class="logo" src="../../assets/images/oxford_logo_tight.png" height="75px" align="bottom"> 
+    <img class="logo" src="{{site.baseurl}}/assets/images/oxford_logo_tight.png" height="75px" align="bottom"> 
   </a>
   <!-- <span class="subtitle">Post-doc in Machine Learning</span> -->
 </div>
@@ -11,8 +11,9 @@
     </div>
     <ul class="nav nav-pills pull-right">
       {% for link in site.navigation %}
-      <li {% if page.url == link.url %}class="active"{% endif %}>
-        <a href="{{link.url}}" title="{{link.title}}">{{link.text}}</a>
+      {% capture url %}{{site.baseurl}}/{{link.url}}{% endcapture %}
+      <li {% if page.url == url %}class="active"{% endif %}>
+        <a href="{{url}}" title="{{link.title}}">{{link.text}}</a>
       </li>
       <!-- class="active"><a href="/">About</a></li> -->
       <!-- <li><a href="/projects">Projects</a></li> -->
