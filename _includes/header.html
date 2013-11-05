@@ -11,8 +11,8 @@
     </div>
     <ul class="nav nav-pills pull-right">
       {% for link in site.navigation %}
-      {% capture url %}{{site.baseurl}}/{{link.url}}{% endcapture %}
-      <li {% if page.url == url %}class="active"{% endif %}>
+      {% capture url %}{{site.baseurl}}{{link.url}}{% endcapture %}
+      <li {% if page.url == link.url %}class="active"{% endif %}>
         <a href="{{url}}" title="{{link.title}}">{{link.text}}</a>
       </li>
       <!-- class="active"><a href="/">About</a></li> -->

@@ -16,11 +16,13 @@ I'm currently working on Anglican, Frank Wood's implementation of the [Church](h
 [Martin Linden](http://www.dbb.su.se/en/?p=researchgroup&id=167) has collaborated with us to extend the variational and empirical Bayes techniques employed by ebFRET to the domain of [Tethered Particle Motion](http://en.wikipedia.org/wiki/Tethered_particle_motion) experiments.
 
 \[ 
-  [Code](https://github.com/ebfret)
+  [Paper](/assets/pdf/vandemeent_icml_2013.pdf)
   |
-  [Paper](https://github.com/ebfret)
+  [Poster](/assets/pdf/vandemeent_icml_2013_poster.pdf)
   |
   [Slides](https://github.com/jwvdm/ibio-presentation)
+  |
+  [Code](https://ebfret.github.io)
 \]
 
 

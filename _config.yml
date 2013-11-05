@@ -6,11 +6,11 @@ timezone: Europe/London
 
 navigation:
 - text: About
-  url: index.html
+  url: /index.html
 - text: Projects
-  url: projects/index.html
+  url: /projects/index.html
 - text: Publications
-  url: publications/index.html
+  url: /publications/index.html
 
 
 scholar:
