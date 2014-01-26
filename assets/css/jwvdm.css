@@ -194,7 +194,7 @@ img[alt=contact] {
 
 ol.bibliography {
   padding-left: 1.5em;
-  list-style: circle;
+  list-style: disc;
 }
 
 ol.bibliography > li {
