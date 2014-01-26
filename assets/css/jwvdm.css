@@ -92,11 +92,6 @@ img[alt=contact] {
 }
 */
 
-ol.bibliography > li {
-  padding-bottom: 10px;
-  list-style-type: none
-}
-
 .nav {
   white-space: nowrap;
 }
@@ -191,6 +186,36 @@ ol.bibliography > li {
 
 .footer a {
   color: #9bd;  
+}
+
+.nav-pills > li + li {
+  margin-left: 5px;
+}
+
+ol.bibliography {
+  padding-left: 1.5em;
+  list-style: circle;
+}
+
+ol.bibliography > li {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+ol.bibliography .nav > li > a {
+  padding-left: 0;
+}
+
+ol.bibliography .nav-pills > li > a,
+ol.bibliography .nav-pills > li > a:hover {
+  font-size: 90%;
+  text-transform: uppercase;
+  color: #888;
+  background-color: transparent;
+}
+
+ol.bibliography .nav-pills > li > a:hover {
+  color: #235;
 }
 
 @font-face {

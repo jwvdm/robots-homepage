@@ -7,13 +7,12 @@ timezone: Europe/London
 navigation:
 - text: About
   url: /index.html
-- text: Projects
-  url: /projects/index.html
+- text: Research
+  url: /research/index.html
 - text: Publications
   url: /publications/index.html
 
-
 scholar:
-  # sort_by: year
-  # order: descending
-  # style: http://www.zotero.org/styles/nature
+  style: apa
+  repository: assets/pdf
+  bibliography_template: bibliography
