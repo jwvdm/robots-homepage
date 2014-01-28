@@ -1,18 +1,27 @@
 @article{vandemeent_arxiv_2014,
 author = {van de Meent, Jan-Willem and Paige, Brooks, and Wood, Frank},
+abstract = {In this paper we demonstrate that tempering Markov chain Monte Carlo samplers for Bayesian models by recursively subsampling observations without replacement can improve the performance of baseline samplers in terms of effective sample size per computation.  We present two tempering by subsampling algorithms, subsampled parallel tempering and subsampled tempered transitions.  We provide an asymptotic analysis of the computational cost of tempering by subsampling, verify that tempering by subsampling costs less than traditional tempering, and demonstrate both algorithms on Bayesian approaches to learning the mean of a high dimensional multivariate Normal and estimating Gaussian process hyperparameters.},
 journal = {ArXiv pre-print},
 title = {{Tempering by Subsampling}},
 year = {2014}
 }
 @article{vandemeent_bpj_accepted_2014,
 author = {van de Meent, Jan-Willem and Wiggins, Chris H and {Gonzalez Jr}, Ruben L},
-file = {:Users/janwillem/xDocuments/Literature/local/columbia/vandemeent\_submitted\_2013.pdf:pdf},
+abstract = {Many single-molecule experiments aim to characterize biomolecular processes in terms of kinetic mod- els that specify the rates of transitions between conformational states of the biomolecule. Estimation of these rates often requires analysis of a population of molecules, in which the conformational trajectory of each molecule is rep- resented by a noisy, time-dependent signal trajectory. Although hidden Markov models (HMMs) may be used to infer the conformational trajectories of individual molecules, estimating a consensus kinetic model from the population of inferred conformational trajectories remains a statistically difficult task, as inferred parameters vary widely within a population. Here we demonstrate how a recently-developed empirical Bayesian method for HMMs can be extended to a enable a more automated and statistically principled approach to two widely occurring tasks in the analysis of single-molecule fluorescence resonance energy transfer (smFRET) experiments: (i) the characterization of changes in rates across a series of experiments performed under variable conditions and (ii) the detection of “degenerate” states that exhibit the same FRET efficiency but differ in their rates of transition. We apply this newly developed methodology to two studies of the bacterial ribosome, each exemplary of one of these two analysis tasks. We con- clude with a discussion of model selection techniques for determination of the appropriate number of conformational states. The code used to perform this analysis and a basic graphical user interface front-end are available as open source software.},
 journal = {Accepted in Biophysical Journal},
 title = {{Empirical Bayes methods enable advanced population-level analyses of single-molecule FRET experiments}},
 year = {2014}
 }
+@article{linden_preprint_2014,
+author = {Johnson, Stephanie and van de Meent, Jan-Willem and Phillips, Rob and Wiggins, Chris H. and Lind\'{e}n, Martin},
+abstract = {The bacterial transcription factor LacI loops DNA by binding to two separate locations on the DNA simultaneously. Despite being one of the most well-studied model systems for transcriptional regulation, the number and structures of LacI-mediated loops accessible to the transcription factor both in vivo and in vitro remain unclear. To probe this issue, we have developed a new analysis method for teth- ered particle motion (TPM), a versatile single-molecule technique commonly used to study LacI-mediated looping and other DNA- protein interactions in vitro. This method, called vbTPM, is based on a variational Bayes treatment of hidden Markov models. It learns the number of distinct states (i.e., DNA-protein conformations) in a TPM trajectory directly from the data with better resolution than ex- isting methods, and also corrects for common experimental artifacts. Studying short (roughly 100 bp) LacI-mediated loops, we are able to resolve states and interconversion patterns that are best explained in terms of at least three distinct loop structures, more than pre- viously reported at the single molecule level for a single construct. Our results indicate that changes in LacI conformation and DNA binding topology both contribute to the repertoire of LacI-mediated loops formed in vitro, and provide new input for quantitative models of looping and transcriptional regulation. Moreover, vbTPM will be of broad use to the TPM community, as it should be easily applica- ble to other protein-nucleic acid interactions that may have complex signatures not easily resolvable by existing methods.},
+journal = {under review},
+title = {{Multiple LacI-mediated loops revealed by Bayesian statistics and tethered particle motion}},
+year = {2014}
+}
 @article{gansell_jas_2014,
 author = {Gansell, Amy R and van de Meent, Jan-Willem and Zairis, Sakellarios and Wiggins, Chris H},
+abstract = {Thousands of first-millennium BCE ivory carvings have been excavated from Neo-Assyrian sites in Mesopotamia (primarily Nimrud, Khorsabad, and Arslan Tash) hundreds of miles from their Levantine production contexts. At present, their specific manufacture dates and workshop localities are unknown. Relying on subjective, visual methods, scholars have grappled with their classification and regional attribution for over a century. This study combines visual approaches with machine-learning techniques to offer data-driven perspectives on the classification and attribution of this early Iron Age corpus. The study sample consisted of 162 sculptures of female figures. We have developed an algorithm that clusters the ivories based on a combination of descriptive and anthropometric data. The resulting categories, which are based on purely statistical criteria, show good agreement with conventional art historical classifications, while revealing new perspectives, especially with regard to the contested Syrian/South Syrian/Intermediate tradition. Specifically, we have identified that objects of the Syrian/South Syrian/Intermediate tradition may be more closely related to Phoenician objects than to North Syrian objects; we offer a reconsideration of a subset of Phoenician objects, and we confirm Syrian/South Syrian/Intermediate stylistic subgroups that might distinguish networks of acquisition among the sites of Nimrud, Khorsabad, Arslan Tash and the Levant. We have also identified which features are most significant in our cluster assignments and might thereby be most diagnostic of regional carving traditions. In short, our study both corroborates traditional visual classification methods and demonstrates how machine-learning techniques may be employed to reveal complementary information not accessible through the exclusively visual analysis of an archaeological corpus.},
 journal = {Accepted in Journal of Archeaological Science},
 title = {{Stylistic Clusters and the Syrian/South Syrian Tradition of First-Millennium BCE Levantine Ivory Carving: A Machine Learning Approach}},
 year = {2013}
@@ -34,13 +43,8 @@ year = {2013}
 }
 @article{emmett_submitted_2013,
 author = {Emmett, Kevin J. and Rosenstein, Jacob K. and van de Meent, Jan-Willem and Shepard, Ken L. and Wiggins, Chris H.},
+abstract = {Nanopore sequencing promises long read-lengths and single-molecule resolution, but the stochastic motion of the DNA molecule inside the pore is a current barrier to high accuracy reads. We develop a method of statistical inference that explicitly accounts for this error and demonstrate that high accuracy (>99.9%) sequence inference is feasible even under highly diffusive motion by using a hidden Markov model to jointly analyze multiple stochastic reads. Using this model, we place bounds on achievable inference accuracy under a range of experimental parameters.},
 journal = {Under Review},
 title = {{Statistical Inference for Nanopore Sequencing with a Biased Random Walk Model}},
-year = {2013}
-}
-@article{linden_preprint_2013,
-author = {Lind\'{e}n, Martin and Johnson, Stephanie and van de Meent, Jan-Willem and Wiggins, Chris H. and Phillips, Rob},
-journal = {In Preparation},
-title = {{Interconversion map of multiple Lac-mediated DNA loops from Bayesian analysis of tethered particle motion}},
 year = {2013}
 }
