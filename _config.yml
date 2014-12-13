@@ -7,8 +7,8 @@ timezone: Europe/London
 navigation:
 - text: About
   url: /index.html
-- text: Research
-  url: /research/index.html
+- text: Anglican
+  url: http://www.robots.ox.ac.uk/~fwood/anglican/
 - text: Publications
   url: /publications/index.html
 
