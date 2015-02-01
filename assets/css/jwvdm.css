@@ -174,7 +174,7 @@ img[alt=contact] {
   background-color: #fff;
   color: #345;
   border-radius: 3px;
-  padding: 30px;
+  padding: 2em 3em;
   /*box-shadow: 5px 5px 5px #012;*/
 }
 
@@ -194,12 +194,12 @@ img[alt=contact] {
 
 ol.bibliography {
   padding-left: 1.5em;
+  max-width: 50em;
   list-style: disc;
 }
 
 ol.bibliography > li {
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding: 0;
 }
 
 ol.bibliography .nav > li > a {
