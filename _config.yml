@@ -8,7 +8,7 @@ navigation:
 - text: About
   url: /index.html
 - text: Anglican
-  url: http://www.robots.ox.ac.uk/~fwood/anglican/
+  url: /../~fwood/anglican/
 - text: Publications
   url: /publications/index.html
 
