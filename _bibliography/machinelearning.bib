@@ -1,3 +1,25 @@
+@article{tolpin_arxiv_1501_05677,
+  author = {Tolpin, David and van de Meent, Jan-Willem and Paige, Brooks Wood, Frank},
+  abstract = {We introduce an adaptive output-sensitive Metropolis-Hastings algorithm for probabilistic models expressed as programs, Adaptive Lightweight Metropolis-Hastings (AdLMH). The algorithm extends Lightweight Metropolis-Hastings (LMH) by adjusting the probabilities of proposing random variables for modification to improve convergence of the program output. We show that AdLMH converges to the correct equilibrium distribution and compare convergence of AdLMH to that of LMH on several test problems to highlight different aspects of the adaptation scheme. We observe consistent improvement in convergence on the test problems.}, 
+  journal = {ArXiv e-prints (accepted at ECML PKDD 2015)},
+  archivePrefix = {arXiv},
+  arxivId = {1501.05677},
+  eprint = {1501.05677},
+  title = {{Output-Sensitive Adaptive Metropolis-Hastings for Probabilistic Programs}},
+  year = {2015}
+}
+
+@article{tolpin_arxiv_1502_07314,
+  author = {Tolpin, David and Paige, Brooks and van de Meent, Jan-Willem and Wood, Frank},
+  abstract = {We introduce a new approach to solving path-finding problems under uncertainty by representing them as probabilistic models and applying domain-independent inference algorithms to the models. This approach separates problem representation from the inference algorithm and provides a framework for efficient learning of path-finding policies. We evaluate the new approach on the Canadian Traveler Problem, which we formulate as a probabilistic model, and show how probabilistic inference allows high performance stochastic policies to be obtained for this problem.}, 
+  journal = {ArXiv e-prints (accepted at ICAPS WPAL 2015)},
+  archivePrefix = {arXiv},
+  arxivId = {1502.07314},
+  eprint = {1502.07314},
+  title = {{Path Finding under Uncertainty through Probabilistic Inference}},
+  year = {2015}
+}
+
 @inproceedings{vandemeent_aistats_2015,
 abstract = {Particle Markov chain Monte Carlo techniques rank among current state-of-the-art methods for probabilistic program inference. A drawback of these techniques is that they rely on importance resampling, which results in degenerate particle trajectories and a low effective sample size for variables sampled early in a program. We here develop a formalism to adapt ancestor resampling, a technique that mitigates particle degeneracy, to the probabilistic programming setting. We present empirical results that demonstrate nontrivial performance gains.},
 archivePrefix = {arXiv},
@@ -31,21 +53,18 @@ pages = {1024--1032},
 title = {{A new approach to probabilistic programming inference}},
 year = {2014}
 }
-@article{vandemeent_bpj_2014,
-abstract = {Many single-molecule experiments aim to characterize biomolecular processes in terms of kinetic models that specify the rates of transition between conformational states of the biomolecule. Estimation of these rates often requires analysis of a population of molecules, in which the conformational trajectory of each molecule is represented by a noisy, time-dependent signal trajectory. Although hidden Markov models (HMMs) may be used to infer the conformational trajectories of individual molecules, estimating a consensus kinetic model from the population of inferred conformational trajectories remains a statistically difficult task, as inferred parameters vary widely within a population. Here, we demonstrate how a recently developed empirical Bayesian method for HMMs can be extended to enable a more automated and statistically principled approach to two widely occurring tasks in the analysis of single-molecule fluorescence resonance energy transfer (smFRET) experiments: 1), the characterization of changes in rates across a series of experiments performed under variable conditions; and 2), the detection of degenerate states that exhibit the same FRET efficiency but differ in their rates of transition. We apply this newly developed methodology to two studies of the bacterial ribosome, each exemplary of one of these two analysis tasks. We conclude with a discussion of model-selection techniques for determination of the appropriate number of conformational states. The code used to perform this analysis and a basic graphical user interface front end are available as open source software.},
-author = {van de Meent, Jan-Willem and Bronson, Jonathan E and Wiggins, Chris H and Gonzalez, Ruben L},
-doi = {10.1016/j.bpj.2013.12.055},
-issn = {1542-0086},
-journal = {Biophysical journal},
-month = mar,
-number = {6},
-pages = {1327--37},
-pmid = {24655508},
-title = {{Empirical Bayes methods enable advanced population-level analyses of single-molecule FRET experiments.}},
-volume = {106},
-year = {2014}
+@article{emmett_bpj_2015,
+author = {Emmett, Kevin J. and Rosenstein, Jacob K. and van de Meent, Jan-Willem and Shepard, Ken L. and Wiggins, Chris H.},
+abstract = {Nanopore sequencing promises long read-lengths and single-molecule resolution, but the stochastic motion of the DNA molecule inside the pore is a current barrier to high accuracy reads. We develop a method of statistical inference that explicitly accounts for this error and demonstrate that high accuracy (>99.9%) sequence inference is feasible even under highly diffusive motion by using a hidden Markov model to jointly analyze multiple stochastic reads. Using this model, we place bounds on achievable inference accuracy under a range of experimental parameters.},
+journal = {Biophysical Journal},
+volume = {108},
+issue = {April},
+pages = {1852-1855},
+doi = {doi:10.1016/j.bpj.2015.03.013},
+title = {{Statistical Inference for Nanopore Sequencing with a Biased Random Walk Model}},
+year = {2015}
 }
-@article{Johnson2014,
+@article{johnson_nar_2014,
 abstract = {The bacterial transcription factor LacI loops DNA by binding to two separate locations on the DNA simultaneously. Despite being one of the best-studied model systems for transcriptional regulation, the number and conformations of loop structures accessible to LacI remain unclear, though the importance of multiple coexisting loops has been implicated in interactions between LacI and other cellular regulators of gene expression. To probe this issue, we have developed a new analysis method for tethered particle motion, a versatile and commonly used in vitro single-molecule technique. Our method, vbTPM, performs variational Bayesian inference in hidden Markov models. It learns the number of distinct states (i.e. DNA-protein conformations) directly from tethered particle motion data with better resolution than existing methods, while easily correcting for common experimental artifacts. Studying short (roughly 100 bp) LacI-mediated loops, we provide evidence for three distinct loop structures, more than previously reported in single-molecule studies. Moreover, our results confirm that changes in LacI conformation and DNA-binding topology both contribute to the repertoire of LacI-mediated loops formed in vitro, and provide qualitatively new input for models of looping and transcriptional regulation. We expect vbTPM to be broadly useful for probing complex protein-nucleic acid interactions.},
 archivePrefix = {arXiv},
 arxivId = {1402.0894},
@@ -75,6 +94,20 @@ title = {{Stylistic clusters and the Syrian/South Syrian tradition of first-mill
 volume = {44},
 year = {2014}
 }
+@article{vandemeent_bpj_2014,
+abstract = {Many single-molecule experiments aim to characterize biomolecular processes in terms of kinetic models that specify the rates of transition between conformational states of the biomolecule. Estimation of these rates often requires analysis of a population of molecules, in which the conformational trajectory of each molecule is represented by a noisy, time-dependent signal trajectory. Although hidden Markov models (HMMs) may be used to infer the conformational trajectories of individual molecules, estimating a consensus kinetic model from the population of inferred conformational trajectories remains a statistically difficult task, as inferred parameters vary widely within a population. Here, we demonstrate how a recently developed empirical Bayesian method for HMMs can be extended to enable a more automated and statistically principled approach to two widely occurring tasks in the analysis of single-molecule fluorescence resonance energy transfer (smFRET) experiments: 1), the characterization of changes in rates across a series of experiments performed under variable conditions; and 2), the detection of degenerate states that exhibit the same FRET efficiency but differ in their rates of transition. We apply this newly developed methodology to two studies of the bacterial ribosome, each exemplary of one of these two analysis tasks. We conclude with a discussion of model-selection techniques for determination of the appropriate number of conformational states. The code used to perform this analysis and a basic graphical user interface front end are available as open source software.},
+author = {van de Meent, Jan-Willem and Bronson, Jonathan E and Wiggins, Chris H and Gonzalez, Ruben L},
+doi = {10.1016/j.bpj.2013.12.055},
+issn = {1542-0086},
+journal = {Biophysical journal},
+month = mar,
+number = {6},
+pages = {1327--37},
+pmid = {24655508},
+title = {{Empirical Bayes methods enable advanced population-level analyses of single-molecule FRET experiments.}},
+volume = {106},
+year = {2014}
+}
 @article{vandemeent_icml_2013,
 abstract = {We address the problem of analyzing sets of noisy time-varying signals that all report on the same process but confound straightforward analyses due to complex inter-signal heterogeneities and measurement artifacts. In particular we consider single-molecule experiments which indirectly measure the distinct steps in a biomolecular process via observations of noisy time-dependent signals such as a fluorescence intensity or bead position. Straightforward hidden Markov model (HMM) analyses attempt to characterize such processes in terms of a set of conformational states, the transitions that can occur between these states, and the associated rates at which those transitions occur; but require ad-hoc post-processing steps to combine multiple signals. Here we develop a hierarchically coupled HMM that allows experimentalists to deal with inter-signal variability in a principled and automatic way. Our approach is a generalized expectation maximization hyperparameter point estimation procedure with variational Bayes at the level of individual time series that learns an single interpretable representation of the overall data generating process.},
 archivePrefix = {arXiv},
@@ -87,12 +120,5 @@ number = {2},
 pages = {361--369},
 title = {{Hierarchically-coupled hidden Markov models for learning kinetic rates from single-molecule data}},
 volume = {28},
-year = {2013}
-}
-@article{emmett_submitted_2013,
-author = {Emmett, Kevin J. and Rosenstein, Jacob K. and van de Meent, Jan-Willem and Shepard, Ken L. and Wiggins, Chris H.},
-abstract = {Nanopore sequencing promises long read-lengths and single-molecule resolution, but the stochastic motion of the DNA molecule inside the pore is a current barrier to high accuracy reads. We develop a method of statistical inference that explicitly accounts for this error and demonstrate that high accuracy (>99.9%) sequence inference is feasible even under highly diffusive motion by using a hidden Markov model to jointly analyze multiple stochastic reads. Using this model, we place bounds on achievable inference accuracy under a range of experimental parameters.},
-journal = {Under Review},
-title = {{Statistical Inference for Nanopore Sequencing with a Biased Random Walk Model}},
 year = {2013}
 }
