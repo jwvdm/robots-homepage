@@ -1,5 +1,5 @@
 **Dr. Jan-Willem van de Meent**   
-![contact](assets/images/contact.png) \[[github](https://github.com/jwvdm)\]
+![contact](assets/images/contact.png) 
   
 Dept. of Engineering Science  
 University of Oxford  
