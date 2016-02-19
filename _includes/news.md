@@ -1,4 +1,6 @@
 
+- New working paper on Arxiv (Accepted at AISTATS 2016): [*Black-Box Policy Search with Probabilistic Programs*](http://arxiv.org/abs/1507.04635)
+
 - I'm on the market for assistant professor positions this year. Come talk to me at [NIPS](http://www.nips.cc) if you are looking to hire in machine learning, programming languages and data science. 
 
 - [NIPS Workshop on Black Box Learning and Inference, Sat 12 Dec 2015](http://www.blackboxworkshop.org)  
@@ -9,5 +11,4 @@
     - *Panelists (Systems)*: Koray Kavukcuoglu (Torch), Michael Betancourt (Stan), Vikash Mansinghka (Venture), Avi Pfeffer (Figaro), Chung-chieh Shan (Hakaru), Yi Wu (Blog) 
     - *Panelists (Research)*: Dave Blei, Zoubin Ghahramani, Ruslan Salakhutdinov, Josh Tenenbaum, and Frank Wood.
 
-- Check out our working paper on Arxiv: [*Black-Box Policy Search with Probabilistic Programs*](http://arxiv.org/abs/1507.04635)
     
