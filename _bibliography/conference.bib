@@ -1,0 +1,67 @@
+@inproceedings{rainforth_icml_2016,
+abstract = {We introduce interacting particle Markov chain Monte Carlo (iPMCMC), a PMCMC method that introduces a coupling between multiple standard and conditional sequential Monte Carlo samplers. Like related methods, iPMCMC is a Markov chain Monte Carlo sampler on an extended space. We present empirical results that show significant improvements in mixing rates relative to both non- interacting PMCMC samplers and a single PMCMC sampler with an equivalent total computational budget. An additional advantage of the iPMCMC method is that it is suitable for distributed and multi-core architectures.},
+booktitle = {Proceedings of The 33rd International Conference on Machine Learning,},
+pages = {2616–2625},
+title = {{Interacting Particle Markov Chain Monte Carlo}},
+author = {Rainforth, Tom and Naesseth, Christian A. and Lindsten,  Fredrik and Paige, Brooks and van de Meent, Jan-Willem and Doucet, Arnaud and Wood, Frank},
+year = {2016}}
+
+@article{vandemeent_aistats_2016,
+abstract = {In this work, we explore how probabilistic programs can be used to represent policies in sequential decision problems. In this formulation, a probabilistic program is a black-box stochastic simulator for both the problem domain and the agent. We relate classic policy gradient techniques to recently introduced black-box variational methods which generalize to probabilistic program inference. We present case studies in the Canadian traveler problem, Rock Sample, and a benchmark for optimal diagnosis inspired by Guess Who. Each study illustrates how programs can efficiently represent policies using moderate numbers of parameters.},
+journal = {Proceedings of the 19th International Conference on Artificial Intelligence and Statistics},
+author = {van de Meent, Jan-Willem and Paige, Brooks and Tolpin, David and Wood, Frank},
+pages = {1195–1204},
+title = {{Black-Box Policy Search with Probabilistic Programs}},
+year = {2016}
+}
+
+@incollection{tolpin_ecml_2015,
+  year={2015},
+  isbn={978-3-319-23524-0},
+  booktitle={Machine Learning and Knowledge Discovery in Databases},
+  volume={9285},
+  series={Lecture Notes in Computer Science},
+  editor={Appice, Annalisa and Rodrigues, Pedro Pereira and Santos Costa, Vítor and Gama, João and Jorge, Alípio and Soares, Carlos},
+  doi={10.1007/978-3-319-23525-7_19},
+  title={Output-Sensitive Adaptive Metropolis-Hastings for Probabilistic Programs},
+  url={http://dx.doi.org/10.1007/978-3-319-23525-7_19},
+  publisher={Springer International Publishing},
+  keywords={Probabilistic programming; Adaptive MCMC},
+  author={Tolpin, David and van de Meent, Jan-Willem and Paige, Brooks and Wood, Frank},
+  pages={311-326},
+  language={English}
+}
+
+@inproceedings{vandemeent_aistats_2015,
+abstract = {Particle Markov chain Monte Carlo techniques rank among current state-of-the-art methods for probabilistic program inference. A drawback of these techniques is that they rely on importance resampling, which results in degenerate particle trajectories and a low effective sample size for variables sampled early in a program. We here develop a formalism to adapt ancestor resampling, a technique that mitigates particle degeneracy, to the probabilistic programming setting. We present empirical results that demonstrate nontrivial performance gains.},
+archivePrefix = {arXiv},
+arxivId = {1501.06769},
+author = {van de Meent, Jan-Willem and Yang, Hongseok and Mansinghka, Vikash and Wood, Frank},
+booktitle = {Artificial Intelligence and Statistics},
+eprint = {1501.06769},
+title = {{Particle Gibbs with Ancestor Sampling for Probabilistic Programs}},
+year = {2015}
+}
+
+@inproceedings{wood_aistats_2014,
+author = {Wood, F and van de Meent, JW and Mansinghka, V},
+booktitle = {Artificial Intelligence and Statistics},
+pages = {1024--1032},
+title = {{A new approach to probabilistic programming inference}},
+year = {2014}
+}
+
+@article{vandemeent_icml_2013,
+abstract = {We address the problem of analyzing sets of noisy time-varying signals that all report on the same process but confound straightforward analyses due to complex inter-signal heterogeneities and measurement artifacts. In particular we consider single-molecule experiments which indirectly measure the distinct steps in a biomolecular process via observations of noisy time-dependent signals such as a fluorescence intensity or bead position. Straightforward hidden Markov model (HMM) analyses attempt to characterize such processes in terms of a set of conformational states, the transitions that can occur between these states, and the associated rates at which those transitions occur; but require ad-hoc post-processing steps to combine multiple signals. Here we develop a hierarchically coupled HMM that allows experimentalists to deal with inter-signal variability in a principled and automatic way. Our approach is a generalized expectation maximization hyperparameter point estimation procedure with variational Bayes at the level of individual time series that learns an single interpretable representation of the overall data generating process.},
+archivePrefix = {arXiv},
+arxivId = {1305.3640},
+author = {van de Meent, Jan-Willem and Bronson, Jonathan E and Wood, Frank and Gonzalez, Ruben L. and Wiggins, Chris H.},
+eprint = {1305.3640},
+journal = {Proceedings of the 30th International Conference on Machine Learning},
+month = may,
+number = {2},
+pages = {361--369},
+title = {{Hierarchically-coupled hidden Markov models for learning kinetic rates from single-molecule data}},
+volume = {28},
+year = {2013}
+}

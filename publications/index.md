@@ -3,11 +3,15 @@ title: Publications
 layout: default
 ---
 
-# Machine Learning
-{% bibliography --file machinelearning %}
+# Conference
+{% bibliography --file conference %}
 
-# Biophysics
-{% bibliography --file biophysics %}
+# Journal
+{% bibliography --file journal %}
 
-# Soft-Condensed Matter
-{% bibliography --file softmatter %}
+# Reports
+{% bibliography --file reports %}
+
+# Workshop
+
+{% bibliography --file workshop %}
